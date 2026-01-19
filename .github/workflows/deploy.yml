@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   deploy:
@@ -26,12 +24,16 @@ jobs:
     - name: Publish static files
       run: dotnet publish --configuration Release --output ./publish
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./publish/wwwroot
-        publish_branch: master
-        destination_dir: docs
-        cname: adega.grdcompany.com.br
-        enable_jekyll: false  # opcional, substitua pelo seu domínio se tiver
+    - name: Copy to docs
+      run: |
+        mkdir -p docs
+        cp -r ./publish/wwwroot/* docs/
+        touch docs/.nojekyll
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/
+        git commit -m "Deploy static files" || echo "No changes to commit"
+        git push  # opcional, substitua pelo seu domínio se tiver
