@@ -33,4 +33,5 @@ jobs:
         publish_dir: ./publish/wwwroot
         publish_branch: master
         destination_dir: docs
-        cname: adega.grdcompany.com.br  # opcional, substitua pelo seu domínio se tiver
+        cname: adega.grdcompany.com.br
+        enable_jekyll: false  # opcional, substitua pelo seu domínio se tiver
