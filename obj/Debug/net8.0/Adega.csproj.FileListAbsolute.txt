@@ -13,6 +13,7 @@ D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.csproj.CoreCompileInputs.cache
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.RazorAssemblyInfo.cache
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.RazorAssemblyInfo.cs
+D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.sourcelink.json
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -27,4 +28,3 @@ D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\refint\Adega.dll
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.pdb
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.genruntimeconfig.cache
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\ref\Adega.dll
-D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.sourcelink.json

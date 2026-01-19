@@ -1,7 +1,7 @@
 @model Adega.Models.LandingLeadInput
 
 <section class="hero" aria-label="Apresentação">
-    <div class="container hero__grid">
+    <div class="container hero__inner">
         <div class="hero__copy">
             <div class="pill">Para adegas • lojas de bebidas • eventos</div>
 
@@ -13,7 +13,7 @@
                 PDV, estoque, financeiro e emissão fiscal em um único sistema pensado para giro alto.
             </p>
 
-            <ul class="hero__bullets">
+            <ul class="hero__checklist">
                 <li>Venda rápida no balcão e no evento</li>
                 <li>Controle por grade/volume e inventário real</li>
                 <li>NFC-e integrada ao fluxo da venda</li>
@@ -31,9 +31,32 @@
         </div>
 
         <div class="hero__visual" role="img" aria-label="Vinho sendo servido em uma taça">
-            <!-- Use background via CSS ou troque por <img> -->
-            <div class="hero__frame">
-                <div class="hero__glow"></div>
+            <div class="hero__screen">
+                <div class="hero__screen-header"></div>
+                <div class="hero__screen-content">
+                    <div class="bottles-animation">
+                        <div class="bottle bottle-1">🍷</div>
+                        <div class="bottle bottle-2">🍾</div>
+                        <div class="bottle bottle-3">🥂</div>
+                        <div class="sparkle sparkle-1">✨</div>
+                        <div class="sparkle sparkle-2">✨</div>
+                        <div class="sparkle sparkle-3">✨</div>
+                    </div>
+                    <div class="stats-preview">
+                        <div class="stat-mini">
+                            <div class="stat-bar" style="--width: 85%"></div>
+                            <span>Vendas hoje</span>
+                        </div>
+                        <div class="stat-mini">
+                            <div class="stat-bar" style="--width: 92%"></div>
+                            <span>Estoque OK</span>
+                        </div>
+                        <div class="stat-mini">
+                            <div class="stat-bar" style="--width: 78%"></div>
+                            <span>Margem</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
