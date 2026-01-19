@@ -469,9 +469,25 @@ input:focus, textarea:focus{
   border-radius: var(--radius);
   padding: 16px 16px 14px;
   min-height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 .card h3{ margin: 0 0 8px; font-size: 16px; }
 .card p{ margin: 0; color: var(--muted); line-height: 1.45; font-size: 14px; }
+
+.cards--modules{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cards--modules .card{
+  font-size: 15px;
+  padding: 18px 16px;
+  text-align: center;
+}
 
 .proof{ padding: 56px 0 12px; }
 .proof__grid{
@@ -613,20 +629,7 @@ input:focus, textarea:focus{
 .step__body h3{ margin: 0 0 6px; }
 .step__body p{ margin: 0; color: var(--muted); }
 
-.modules{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-.module{
-  border:1px solid var(--line);
-  background: var(--card);
-  border-radius: 14px;
-  padding: 12px 12px;
-  color: rgba(246,243,245,.86);
-}
+
 .callout{
   margin-top: 18px;
   border:1px solid rgba(211,162,76,.24);
