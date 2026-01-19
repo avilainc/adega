@@ -617,6 +617,8 @@ input:focus, textarea:focus{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .module{
   border:1px solid var(--line);
