@@ -32,6 +32,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./publish/wwwroot
         publish_branch: gh-pages
-        destination_dir: docs
         cname: adega.grdcompany.com.br
         enable_jekyll: false  # opcional, substitua pelo seu domínio se tiver
