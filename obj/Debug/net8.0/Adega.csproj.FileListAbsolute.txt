@@ -27,3 +27,4 @@ D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\refint\Adega.dll
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.pdb
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.genruntimeconfig.cache
 D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\ref\Adega.dll
+D:\Projetos\Easy4me\Adega\obj\Debug\net8.0\Adega.sourcelink.json

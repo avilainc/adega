@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adega")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15fea2441143391f867e9a965a6e31dcd36f277f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Adega")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Adega")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
