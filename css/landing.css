@@ -311,7 +311,12 @@ input:focus, textarea:focus{
 .footer__muted{ color: var(--muted); font-size: 13px; }
 .footer__sep{ color: var(--muted); padding: 0 6px; }
 
-.thanks{ padding: 76px 0; }
+.thanks{ padding: 76px 0; text-align: center; }
+.thanks__content{ max-width: 600px; margin: 0 auto; }
+.thanks__title{ font-size: 36px; margin-bottom: 16px; color: var(--accent); }
+.thanks__message{ font-size: 18px; line-height: 1.6; margin-bottom: 24px; }
+.thanks__next{ color: var(--muted); margin-bottom: 32px; }
+.thanks__cta{ margin-top: 32px; }
 .thanks__card{
   border:1px solid var(--line);
   background: var(--card);
