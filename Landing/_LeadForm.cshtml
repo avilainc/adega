@@ -1,0 +1,33 @@
+@model Adega.Models.LandingLeadInput
+
+<form class="lead-form" asp-controller="Landing" asp-action="Lead" method="post">
+    <div class="lead-form__fields">
+        <div class="form-group">
+            <input asp-for="Nome" class="form-control" placeholder="Seu nome completo" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input asp-for="Email" class="form-control" placeholder="Seu melhor e-mail" type="email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input asp-for="Telefone" class="form-control" placeholder="WhatsApp (com DDD)" />
+            <span asp-validation-for="Telefone" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input asp-for="NomeLoja" class="form-control" placeholder="Nome da sua loja" />
+            <span asp-validation-for="NomeLoja" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn--primary btn--large">
+        Começar teste grátis agora
+    </button>
+
+    <p class="lead-form__note">
+        Ao enviar, você concorda com nossos termos de uso e política de privacidade.
+    </p>
+</form>
