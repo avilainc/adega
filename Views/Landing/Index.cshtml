@@ -1,0 +1,17 @@
+@model Adega.Models.LandingLeadInput
+
+@{
+    ViewData["Description"] = "PDV + ERP ideal para adegas, lojas de bebidas, eventos e vinícolas. Caixa, estoque, financeiro e NFC-e integrados.";
+}
+
+<partial name="_Hero" model="Model" />
+<partial name="_SocialProof" />
+<partial name="_Benefits" />
+<partial name="_HowItWorks" />
+<partial name="_Modules" />
+<partial name="_Faq" />
+<partial name="_FinalCta" model="Model" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

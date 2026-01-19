@@ -1,0 +1,12 @@
+@{
+    var name = TempData["LeadName"] as string;
+}
+
+<section class="thanks">
+    <div class="container thanks__card">
+        <h1>Pedido recebido</h1>
+        <p>@(string.IsNullOrWhiteSpace(name) ? "Perfeito." : $"{name}, perfeito.") Em breve entraremos em contato para ativar o teste grátis.</p>
+
+        <a class="btn btn--primary" href="@Url.Action("Index", "Landing")">Voltar</a>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+@{
+    var title = (ViewData["Title"] as string) ?? "Easy4me";
+    var description = (ViewData["Description"] as string) ?? "PDV + ERP para bebidas: caixa, estoque, financeiro e emissão fiscal em um só lugar.";
+}
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>@title</title>
+
+    <partial name="_SeoHead" />
+
+    <meta name="description" content="@description" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="~/css/landing.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar__inner">
+            <a class="brand" href="@Url.Action("Index", "Landing")" aria-label="Easy4me">
+                <span class="brand__mark">easy4me</span>
+                <span class="brand__tag">PDV + ERP</span>
+            </a>
+
+            <nav class="topbar__nav" aria-label="Navegação">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#modulos">Módulos</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+
+            <a class="btn btn--ghost" href="#teste">Testar grátis</a>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__left">
+                <div class="footer__brand">Easy4me</div>
+                <div class="footer__muted">© @DateTime.UtcNow.Year • Solução Informática e Sistemas</div>
+            </div>
+            <div class="footer__right">
+                <a href="#teste">Teste grátis</a>
+                <span class="footer__sep">•</span>
+                <a href="#faq">Dúvidas</a>
+            </div>
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

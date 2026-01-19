@@ -1,0 +1,46 @@
+@model Adega.Models.LandingLeadInput
+
+<section class="hero" aria-label="Apresentação">
+    <div class="container hero__grid">
+        <div class="hero__copy">
+            <div class="pill">🍷 Para adegas • lojas de bebidas • eventos</div>
+
+            <h1 class="hero__title">
+                Venda mais bebidas e controle <span class="accent">caixa + estoque</span> sem bagunça.
+            </h1>
+
+            <p class="hero__subtitle">
+                PDV, estoque, financeiro e emissão fiscal em um único sistema pensado para giro alto.
+            </p>
+
+            <ul class="hero__bullets">
+                <li>Venda rápida no balcão e no evento</li>
+                <li>Controle por grade/volume e inventário real</li>
+                <li>NFC-e integrada ao fluxo da venda</li>
+                <li>Relatórios de giro e margem para decidir melhor</li>
+            </ul>
+
+            <div class="hero__cta">
+                <a class="btn btn--primary" href="#teste">Quero testar grátis por 7 dias</a>
+                <a class="btn btn--link" href="#como-funciona">Ver como funciona</a>
+            </div>
+
+            <div class="hero__micro">
+                Sem cartão. Configuração guiada. Suporte humano.
+            </div>
+        </div>
+
+        <div class="hero__visual" role="img" aria-label="Vinho sendo servido em uma taça">
+            <!-- Use background via CSS ou troque por <img> -->
+            <div class="hero__frame">
+                <div class="hero__glow"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero__anchor" id="teste"></div>
+
+    <div class="container">
+        <partial name="_LeadForm" model="Model" />
+    </div>
+</section>

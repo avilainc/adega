@@ -1,0 +1,66 @@
+@model Adega.Models.LandingLeadInput
+
+<section class="lead" aria-label="Teste grátis">
+    <div class="lead__card">
+        <div class="lead__head">
+            <h2 class="lead__title">Teste grátis por 7 dias</h2>
+            <p class="lead__subtitle">Preencha e a gente te coloca rodando rápido.</p>
+        </div>
+
+        <form asp-controller="Landing" asp-action="Lead" method="post" class="lead__form" novalidate>
+            <div asp-validation-summary="ModelOnly" class="val val--summary"></div>
+
+            <!-- Honeypot -->
+            <input asp-for="Website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <div class="grid">
+                <div class="field">
+                    <label asp-for="Nome"></label>
+                    <input asp-for="Nome" placeholder="Seu nome" />
+                    <span asp-validation-for="Nome" class="val"></span>
+                </div>
+
+                <div class="field">
+                    <label asp-for="Empresa"></label>
+                    <input asp-for="Empresa" placeholder="Nome da empresa" />
+                    <span asp-validation-for="Empresa" class="val"></span>
+                </div>
+
+                <div class="field">
+                    <label asp-for="WhatsApp"></label>
+                    <input asp-for="WhatsApp" placeholder="(xx) xxxxx-xxxx" inputmode="tel" />
+                    <span asp-validation-for="WhatsApp" class="val"></span>
+                </div>
+
+                <div class="field">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" placeholder="email@empresa.com" inputmode="email" />
+                    <span asp-validation-for="Email" class="val"></span>
+                </div>
+
+                <div class="field">
+                    <label asp-for="Segmento">Segmento</label>
+                    <input asp-for="Segmento" placeholder="Adega / Loja / Evento / Vinícola" />
+                    <span asp-validation-for="Segmento" class="val"></span>
+                </div>
+
+                <div class="field">
+                    <label asp-for="Cidade"></label>
+                    <input asp-for="Cidade" placeholder="Cidade/UF" />
+                    <span asp-validation-for="Cidade" class="val"></span>
+                </div>
+
+                <div class="field field--full">
+                    <label asp-for="Mensagem"></label>
+                    <textarea asp-for="Mensagem" rows="3" placeholder="Me diga como é sua operação (balcão, evento, delivery, etc.)"></textarea>
+                    <span asp-validation-for="Mensagem" class="val"></span>
+                </div>
+            </div>
+
+            <div class="lead__actions">
+                <button type="submit" class="btn btn--primary btn--wide">Quero testar grátis</button>
+                <div class="lead__micro">Ao enviar, você concorda em receber contato sobre a ativação do teste.</div>
+            </div>
+        </form>
+    </div>
+</section>

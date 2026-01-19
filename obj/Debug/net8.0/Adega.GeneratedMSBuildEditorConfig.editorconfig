@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Adega
+build_property.RootNamespace = Adega
+build_property.ProjectDir = D:\Projetos\Easy4me\Adega\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projetos\Easy4me\Adega
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Projetos/Easy4me/Adega/Landing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_Benefits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfQmVuZWZpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_Faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfRmFxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_FinalCta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfRmluYWxDdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_Hero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfSGVyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_HowItWorks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfSG93SXRXb3Jrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_LeadForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfTGVhZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_Modules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfTW9kdWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Landing/_SocialProof.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGFuZGluZ1xfU29jaWFsUHJvb2YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_Benefits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfQmVuZWZpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_Faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfRmFxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_FinalCta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfRmluYWxDdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_Hero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfSGVyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_HowItWorks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfSG93SXRXb3Jrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_LeadForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfTGVhZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_Modules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfTW9kdWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Landing/_SocialProof.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1xfU29jaWFsUHJvb2YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Shared/_SeoHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZW9IZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/Easy4me/Adega/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,18 @@
+@{
+    // Ajuste quando tiver domínio real e imagem OG
+    var ogTitle = (ViewData["Title"] as string) ?? "Easy4me";
+    var ogDesc = (ViewData["Description"] as string) ?? "PDV + ERP para bebidas: venda rápida, estoque real e fiscal integrado.";
+    var ogImage = Url.Content("~/img/hero-wine.png");
+    var ogUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.PathBase}{Context.Request.Path}";
+}
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="@ogTitle" />
+<meta property="og:description" content="@ogDesc" />
+<meta property="og:image" content="@ogImage" />
+<meta property="og:url" content="@ogUrl" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="@ogTitle" />
+<meta name="twitter:description" content="@ogDesc" />
+<meta name="twitter:image" content="@ogImage" />
